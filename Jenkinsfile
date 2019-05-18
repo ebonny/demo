@@ -8,7 +8,8 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh "gradle clean build"
+               sh "java -version"
+               // sh "gradle clean build"
             }
         }
 
