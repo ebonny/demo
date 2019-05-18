@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'gradle clean build'
+                bash 'gradle clean build'
             }
         }
 
